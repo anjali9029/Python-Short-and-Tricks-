@@ -1,3 +1,51 @@
 Hello Readers, here we learn some sort tricks of python. 
 Some very basic things of python which is most important for any python program.
 Now, Lets start our Learning porcesses............
+
+
+#First lets see Line, Multiline and Identations Statements
+
+#for the single line comment we are using (#)
+#Line
+print("Hello, World")  # this is the single line of code in python
+
+
+"""for multiple line
+comment we are using ("""""") three quotes"""
+#Multiline 
+
+#here we are using square bracakets for the adding multiple line code
+total = [1+2+3+        
+         4+3+2]
+
+#Here we are using blackslash for the multiline code
+total1 = 1+2+3+\
+3+2+2
+
+#Here we are using prentheses (round brackets) for the multiline code
+total2 = (3+2+3+
+          3+2)
+
+print(total)
+print(total1)
+print(total2)
+
+#Indentations
+
+if True:
+    print("This is an Identation")
+    print("This is an Identation")       #Here the whitespace is called identation
+print("This is not an Identation")
+
+
+
+#Output
+
+Hello, World
+[15]
+13
+13
+This is an Identation
+This is an Identation
+This is not an Identation
+
